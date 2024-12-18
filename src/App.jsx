@@ -26,7 +26,7 @@ const App = () => {
 
   return (
     <div>
-      {showBackground && <img className="background" alt="ocean" src="/images/ocean.jpg" />}
+      {showBackground && <img className="background" alt="ocean" src={`${import.meta.env.BASE_URL}images/ocean.jpg`} />}
       <div className="animals">{images}</div>
       <p id="fact">{selectedFact}</p>
       <h1>{selectedFact === '' ? 'Click an animal for a fun fact' : 'Fun Fact!'}</h1>

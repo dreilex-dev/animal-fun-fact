@@ -1,6 +1,6 @@
 export const animals = {
   dolphin: {
-    image: '/animal-fun-fact/images/dolphin.png',
+    image: `${import.meta.env.BASE_URL}images/dolphin.png`,
     facts: [
       'Dolphins have been shown to give distinct names to each other!',
       'Dolphins are known to display their own culture!',
@@ -8,7 +8,7 @@ export const animals = {
     ]
   },
   lobster: {
-    image: '/animal-fun-fact/images/lobster.png',
+    image: `${import.meta.env.BASE_URL}images/lobster.png`,
     facts: [
       'Lobsters taste with their legs!',
       'Lobsters chew with their stomachs!',
@@ -16,7 +16,7 @@ export const animals = {
     ]
   },
   starfish: {
-    image: '/animal-fun-fact/images/starfish.png',
+    image: `${import.meta.env.BASE_URL}images/starfish.png`,
     facts: [
       'Starfish can have up to 40 arms!',
       'Starfish have no brain and no blood!',
